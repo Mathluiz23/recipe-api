@@ -32,6 +32,11 @@ public class TestRecipesControllerReadOne
   [MemberData(nameof(RecipeServiceTestData))]
   public void TestReadOne(string entryName, Recipe expected)
   {
-    throw new NotImplementedException();
+    var RecipesController = new RecipesController(new RecipeService());
+    var actionResult = RecipesController.Get(entryName);
+    var result = (OkObjectResult)actionResult;
+    var resultRecipe = result.Value;
+
+    resultRecipe.Should().BeEquivalentTo(expected);
   }
 }
