@@ -1,4 +1,4 @@
-# Boas-vindas ao repositório do projeto da API de Receitas
+#  API de Receitas
 
 # Orientações
 
