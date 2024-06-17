@@ -9,7 +9,7 @@
 
   - Use o comando: `git clone git@github.com:Mathluiz23/recipe-api.git`.
   - Entre na pasta do repositório que você acabou de clonar:
-    - `cd git@github.com:Mathluiz23/recipe-api.git`
+    - `cd recipe-api`
 
   2. Instale as dependências
   
